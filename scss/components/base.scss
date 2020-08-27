@@ -1,0 +1,35 @@
+/** Variables */
+/**************/
+
+//Font
+$fontFamily: BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+/**
+* Colores
+**/
+$colorTexto: #474646;
+$colorFondo: rgb(182, 193, 240);
+
+//Aside
+$paddingAside: 10px;
+
+//Titulo
+$marginButtonTitulo: 50px;
+
+//Primario
+$marginButtonPri: 30px;
+
+//Secundario
+$marginButtonSec: 40px;
+
+//Checkbox
+$marginButtonContentCheckbox: 40px;
+$inputCheckboxBorderColorDefault: rgb(68, 66, 66);
+$inputCheckboxBorderColorChecked: rgb(68, 66, 66);
+$inputCheckboxBackgroundColorChecked: rgb(68, 66, 66);
+$inputCheckboxBorderColorCheckedContent: white;
+
+//Botones
+$backgroundColorButtonAccept: green;
+$backgroundColorButtonRefuse: red;
+$paddingButtonContentButtons: 20px;

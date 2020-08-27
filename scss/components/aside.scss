@@ -1,0 +1,80 @@
+#terminos-condiciones-aside {
+  font-family: $fontFamily;
+  color: $colorTexto;
+
+  .terminos-condiciones {
+    background-color: $colorFondo;
+    padding: $paddingAside;
+
+    &--content-title {
+      text-align: center;
+      margin-bottom: $marginButtonTitulo;
+    }
+
+    &--content-pri {
+      text-align: justify;
+      margin-bottom: $marginButtonPri;
+      font-weight: 400;
+    }
+
+    &--content-sec {
+      text-align: justify;
+      font-weight: 400;
+      margin-bottom: $marginButtonSec;
+    }
+
+    &--content-checkbox {
+      margin-bottom: $marginButtonContentCheckbox;
+    }
+
+    &--content-buttons {
+      text-align: center;
+      padding-bottom: $paddingButtonContentButtons;
+
+      .content-buttons--accept {
+        background-color: $backgroundColorButtonAccept;
+      }
+
+      .content-buttons--refuse {
+        background-color: $backgroundColorButtonRefuse;
+      }
+    }
+  }
+
+  input[type="checkbox"] {
+	  display: none;
+  }
+
+  input[type="checkbox"] + label {
+    line-height: 29px;
+    color: $colorTexto;
+  }
+
+  input[type="checkbox"] + label:before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin: 0.5em 0.5em 0 0;
+    border: 2px solid $inputCheckboxBorderColorDefault;
+    background: white;
+  }
+
+  input[type="checkbox"]:checked + label:before {
+    border-color: $inputCheckboxBorderColorChecked;
+    background: $inputCheckboxBackgroundColorChecked;
+  }
+
+  input[type="checkbox"]:checked + label:after {
+    content: "";
+    width: 12px;
+    height: 6px;
+    border: 3px solid $inputCheckboxBorderColorCheckedContent;
+    float: left;
+    margin-left: -21px;
+    border-right: 0;
+    border-top: 0;
+    margin-top: 11px;
+    transform: rotate(-55deg);
+  }
+}

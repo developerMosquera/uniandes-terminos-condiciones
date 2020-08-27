@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/** Importación de los sass para solo compilar este archivo */
+/** Variables */
+/**************/
+/**
+* Colores
+**/
+#terminos-condiciones-aside {
+  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  color: #474646; }
+  #terminos-condiciones-aside .terminos-condiciones {
+    background-color: #b6c1f0;
+    padding: 10px; }
+    #terminos-condiciones-aside .terminos-condiciones--content-title {
+      text-align: center;
+      margin-bottom: 50px; }
+    #terminos-condiciones-aside .terminos-condiciones--content-pri {
+      text-align: justify;
+      margin-bottom: 30px;
+      font-weight: 400; }
+    #terminos-condiciones-aside .terminos-condiciones--content-sec {
+      text-align: justify;
+      font-weight: 400;
+      margin-bottom: 40px; }
+    #terminos-condiciones-aside .terminos-condiciones--content-checkbox {
+      margin-bottom: 40px; }
+    #terminos-condiciones-aside .terminos-condiciones--content-buttons {
+      text-align: center;
+      padding-bottom: 20px; }
+      #terminos-condiciones-aside .terminos-condiciones--content-buttons .content-buttons--accept {
+        background-color: green; }
+      #terminos-condiciones-aside .terminos-condiciones--content-buttons .content-buttons--refuse {
+        background-color: red; }
+  #terminos-condiciones-aside input[type="checkbox"] {
+    display: none; }
+  #terminos-condiciones-aside input[type="checkbox"] + label {
+    line-height: 29px;
+    color: #474646; }
+  #terminos-condiciones-aside input[type="checkbox"] + label:before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin: 0.5em 0.5em 0 0;
+    border: 2px solid #444242;
+    background: white; }
+  #terminos-condiciones-aside input[type="checkbox"]:checked + label:before {
+    border-color: #444242;
+    background: #444242; }
+  #terminos-condiciones-aside input[type="checkbox"]:checked + label:after {
+    content: "";
+    width: 12px;
+    height: 6px;
+    border: 3px solid white;
+    float: left;
+    margin-left: -21px;
+    border-right: 0;
+    border-top: 0;
+    margin-top: 11px;
+    transform: rotate(-55deg); }
