@@ -28,9 +28,11 @@
       text-align: center;
       padding-bottom: 20px; }
       #terminos-condiciones-aside .terminos-condiciones--content-buttons .content-buttons--accept {
-        background-color: green; }
+        background-color: green;
+        color: white; }
       #terminos-condiciones-aside .terminos-condiciones--content-buttons .content-buttons--refuse {
-        background-color: red; }
+        background-color: red;
+        color: white; }
   #terminos-condiciones-aside input[type="checkbox"] {
     display: none; }
   #terminos-condiciones-aside input[type="checkbox"] + label {
